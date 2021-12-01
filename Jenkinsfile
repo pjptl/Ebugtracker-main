@@ -7,6 +7,8 @@ agent any
 			echo "@GIT_BRANCH"
 			
 			}
+			}
+		}
 			stages {
             			stage('Hello'){
             			steps{

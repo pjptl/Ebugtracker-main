@@ -21,6 +21,7 @@ agent any
 			stage('Package'){
 				steps{
 				   bat 'mvn package'
+					set +e
 				     }
                                      }
 			stage('Deploy'){

@@ -15,7 +15,7 @@ agent any
 		                }
 			stage('Build'){
             			steps{
-            			    bat 'mvn clean compile'
+            			    sh 'mvn compile'
             			}
 		                }
 		                 

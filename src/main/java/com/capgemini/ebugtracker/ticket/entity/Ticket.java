@@ -29,7 +29,7 @@ public class Ticket {
     @Column(name = "priority")
     private Priority priority;
 
-    @Column(name = "user")
+    
     private Long userid;
 
     public Long getTicketId() {

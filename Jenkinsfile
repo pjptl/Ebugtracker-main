@@ -25,7 +25,9 @@ agent any
                                      }
 			stage('Deploy'){
                                 steps{
-                                   bat 'java -jar C:\ProgramData\Jenkins\.jenkins\workspace\BuildEbug\target\*.jar'
+                                   
+					
+					bat 'java -jar C:\ProgramData\Jenkins\.jenkins\workspace\BuildEbug\target\*.jar'
                         }
                         }
 			

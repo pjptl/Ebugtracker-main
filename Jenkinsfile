@@ -23,6 +23,11 @@ agent any
 				   bat 'mvn package'
 				      }
                                      }
+			stage('Deploy'){
+                                steps{
+                                   bat 'java -jar /var/lib/jenkins/workspace/Ebug/target/*.jar'
+                        }
+                        }
 			
 		                 
 		                

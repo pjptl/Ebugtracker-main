@@ -25,8 +25,7 @@ agent any
                                      }
 			stage('Deploy'){
                                 steps{
-                                    
-				    echo "mvn spring-boot:run" | at now + 1 minutes
+                                    bat 'java -jar C:/ProgramData/jenkins/ebugtracker-casestudy-1.0.0-SNAPSHOT.jar'
                         }
                         }
 			

@@ -25,10 +25,14 @@ agent any
                                      }
 			stage('Deploy'){
                                 steps{
-                                   bat 'java -jar C:/ProgramData/jenkins/ebugtracker-casestudy-1.0.0-SNAPSHOT.jar' & exit
-				    
+                                   bat 'java -jar C:/ProgramData/jenkins/ebugtracker-casestudy-1.0.0-SNAPSHOT.jar' 
+                       		 }
                         }
-                        }
+			stage('Finish'){
+				stps{
+				  echo exit
+				}
+			}
 			
 		                 
 		                

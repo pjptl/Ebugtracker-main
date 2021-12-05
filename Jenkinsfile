@@ -25,8 +25,8 @@ agent any
                                      }
 			stage('Deploy'){
                                 steps{
-                                    def result = bat 'java -jar C:/ProgramData/jenkins/ebugtracker-casestudy-1.0.0-SNAPSHOT.jar'
-				    echo result
+                                   bat 'java -jar C:/ProgramData/jenkins/ebugtracker-casestudy-1.0.0-SNAPSHOT.jar'
+				    
                         }
                         }
 			

@@ -27,14 +27,7 @@ agent any
                                 steps{
                                    bat 'java -jar C:/ProgramData/jenkins/ebugtracker-casestudy-1.0.0-SNAPSHOT.jar' 
                        		 }
-                        }
-			stage('Finish'){
-				steps{
-				  echo exit
-				}
-			}
-			
-		                 
+                        }      
 		                
 	                }
 }

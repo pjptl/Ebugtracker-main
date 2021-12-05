@@ -29,7 +29,7 @@ agent any
                        		 }
                         }
 			stage('Finish'){
-				stps{
+				steps{
 				  echo exit
 				}
 			}
